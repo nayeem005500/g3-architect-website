@@ -70,3 +70,28 @@ color: rgba(114, 114, 114, 1);
         flex-direction: column;
     }
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;  
+}
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+main > section{
+    margin-top: 100px;
+}
+.our-features{
+    margin-left: 100px;
+    max-width: 500px;
+}
+.features{
+    color: rgba(255, 144, 14, 1);
+}
+.feature-title{
+    font-size: 3rem;
+}
